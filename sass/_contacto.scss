@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------------------ */
+/* ----------------------------CSS DE CONTACTO.HTML---------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.maincontacto{
+    background-image: url(../img/aaa.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.sectcontacto{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    h1{
+        color: #ffffff;
+        font-size: 32px;
+        padding-top: 10px;
+    }
+    p{
+        color: #ffffff;
+    }
+}
+
+.contacto__form{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sectcontacto__divtext{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.sectcontacto__divform{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.ul-contacto{
+    display: flex;
+    flex-direction: column;
+}
