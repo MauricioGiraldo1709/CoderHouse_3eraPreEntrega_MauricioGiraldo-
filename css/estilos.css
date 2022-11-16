@@ -60,6 +60,7 @@ footer {
   align-items: center;
   padding: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 .footer_main2 .c_logos {
   display: flex;
@@ -158,6 +159,7 @@ ul li a {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 .sectmain {
