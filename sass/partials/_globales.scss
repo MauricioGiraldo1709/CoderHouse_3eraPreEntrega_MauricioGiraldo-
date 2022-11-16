@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+// Variables a usar 
+$f-size_titulo: 32px;
+$fondo-headerfooter: rgb(0, 12, 43);
 
 *{
     padding: 0;
@@ -11,7 +14,7 @@
 /* ----------------ESTILOS DE HEADER Y FOOTER EN BOOTSTRAP----------------- */
 /* ------------------------------------------------------------------------ */
 .header_2{
-    background-color: rgb(0, 12, 43);
+    background-color: $fondo-headerfooter;
     margin: 0;
     padding: 10px;
     .list-nav{
@@ -51,7 +54,7 @@ footer{
 }
 
 .footer_main2{
-    background-color: rgb(0, 12, 43);
+    background-color: $fondo-headerfooter;
     color: #ffffff;
     width: 100%;
     margin: 0;
@@ -80,5 +83,5 @@ p{
 }
 
 .title{
-    font-size: 32px;
+    font-size: $f-size_titulo;
 }
