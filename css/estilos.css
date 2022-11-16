@@ -400,83 +400,11 @@ a.my-button:active {
 .mainhistoria img {
   border-radius: 15px;
 }
-.mainhistoria .roll-in-blurred-left {
-  -webkit-animation: roll-in-blurred-left 1.5s cubic-bezier(0.23, 1, 0.32, 1) both;
-  animation: roll-in-blurred-left 1.5s cubic-bezier(0.23, 1, 0.32, 1) both;
-}
-.mainhistoria .roll-in-blurred-right {
-  -webkit-animation: roll-in-blurred-right 1.5s cubic-bezier(0.23, 1, 0.32, 1) both;
-  animation: roll-in-blurred-right 1.5s cubic-bezier(0.23, 1, 0.32, 1) both;
-}
 
 .secthistoria {
   padding: 25px;
 }
 
-@-webkit-keyframes roll-in-blurred-left {
-  0% {
-    -webkit-transform: translateX(-1000px) rotate(-720deg);
-    transform: translateX(-1000px) rotate(-720deg);
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-blurred-left {
-  0% {
-    -webkit-transform: translateX(-1000px) rotate(-720deg);
-    transform: translateX(-1000px) rotate(-720deg);
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes roll-in-blurred-right {
-  0% {
-    -webkit-transform: translateX(1000px) rotate(720deg);
-    transform: translateX(1000px) rotate(720deg);
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-blurred-right {
-  0% {
-    -webkit-transform: translateX(1000px) rotate(720deg);
-    transform: translateX(1000px) rotate(720deg);
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
 /* ------------------------------------------------------------------------ */
 /* ----------------------------CSS DE TOUR.HTML---------------------------- */
 /* ------------------------------------------------------------------------ */
