@@ -159,7 +159,7 @@ ul li a {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .sectmain {
