@@ -161,6 +161,25 @@ ul li a{
     }
 }
 
+/* CELULARES */
+@media (min-width: 320px) {
+    .logonav{
+        width: 130px;
+    }
+    .p_index{
+        font-size: 12px;
+    }
+    .sectmain{
+        align-items: stretch;
+    }
+
+    .sectmain__divtext{
+        justify-content: center;
+    }
+}
+
+
+
 /* TABLES AND IPADS */
 @media (min-width: 768px){
 
@@ -173,6 +192,10 @@ ul li a{
         row-gap: 15px;
     }
 
+    .logonav{
+        width: 170px;
+    }
+    
     .main-menu{
         display: flex;
         justify-content: space-around;
@@ -201,6 +224,9 @@ ul li a{
         width: 550px;
     }
     
+    .p_index{
+        font-size: 14px;
+    }
 
     .sectmain__divfoto{
         width: 450px;
@@ -254,6 +280,10 @@ ul li a{
         align-items: center;
     }
 
+    .logonav{
+        width: 200px;
+    }
+
     ul li a{
         font-size: 20px;
     }
@@ -283,6 +313,9 @@ ul li a{
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
+    }
+    .p_index{
+        font-size: 16px;
     }
     h1{
         font-size: 24px;

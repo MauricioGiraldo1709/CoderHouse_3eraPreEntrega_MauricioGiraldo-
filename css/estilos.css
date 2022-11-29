@@ -159,7 +159,7 @@ ul li a {
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
 }
 
 .sectmain {
@@ -241,6 +241,21 @@ a.my-button:active {
   margin: 10px;
 }
 
+/* CELULARES */
+@media (min-width: 320px) {
+  .logonav {
+    width: 130px;
+  }
+  .p_index {
+    font-size: 12px;
+  }
+  .sectmain {
+    align-items: stretch;
+  }
+  .sectmain__divtext {
+    justify-content: center;
+  }
+}
 /* TABLES AND IPADS */
 @media (min-width: 768px) {
   #header {
@@ -250,6 +265,9 @@ a.my-button:active {
     grid-template-columns: auto;
     justify-content: space-around;
     row-gap: 15px;
+  }
+  .logonav {
+    width: 170px;
   }
   .main-menu {
     display: flex;
@@ -273,6 +291,9 @@ a.my-button:active {
   }
   .sectmain__divtext {
     width: 550px;
+  }
+  .p_index {
+    font-size: 14px;
   }
   .sectmain__divfoto {
     width: 450px;
@@ -315,6 +336,9 @@ a.my-button:active {
     height: 65px;
     align-items: center;
   }
+  .logonav {
+    width: 200px;
+  }
   ul li a {
     font-size: 20px;
   }
@@ -340,6 +364,9 @@ a.my-button:active {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+  }
+  .p_index {
+    font-size: 16px;
   }
   h1 {
     font-size: 24px;
