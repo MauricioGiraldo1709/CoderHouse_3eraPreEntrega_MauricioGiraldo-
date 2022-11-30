@@ -247,7 +247,11 @@ a.my-button:active {
     width: 130px;
   }
   .p_index {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 15px;
+  }
+  #main {
+    height: 100%;
   }
   .sectmain {
     align-items: stretch;
@@ -267,7 +271,7 @@ a.my-button:active {
     row-gap: 15px;
   }
   .logonav {
-    width: 170px;
+    width: 180px;
   }
   .main-menu {
     display: flex;
@@ -281,6 +285,9 @@ a.my-button:active {
   ul li a {
     font-size: 16px;
   }
+  #main {
+    height: 100vh;
+  }
   .sectmain {
     grid-template-columns: 1fr;
     align-items: center;
@@ -288,12 +295,13 @@ a.my-button:active {
     display: flex;
     justify-content: space-evenly;
     display: grid;
+    align-items: stretch;
   }
   .sectmain__divtext {
     width: 550px;
   }
   .p_index {
-    font-size: 14px;
+    font-size: 16px;
   }
   .sectmain__divfoto {
     width: 450px;
@@ -347,6 +355,9 @@ a.my-button:active {
   }
   .get-started {
     margin-bottom: 0;
+  }
+  #main {
+    height: 100vh;
   }
   .sectmain {
     grid-template-columns: 1fr 1fr;
