@@ -37,3 +37,23 @@
 .secthistoria{
     padding: 25px;
 }
+
+
+@media (min-width: 320px){
+    .p-historia{
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px){
+    .p-historia{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px){
+    .p-historia{
+        font-size: 16px;
+    }
+}

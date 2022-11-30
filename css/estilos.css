@@ -332,7 +332,7 @@ a.my-button:active {
   }
 }
 /* DESKTOPS */
-@media (min-width: 1028px) {
+@media (min-width: 1024px) {
   #header {
     grid-template-columns: 1fr;
   }
@@ -445,6 +445,22 @@ a.my-button:active {
   padding: 25px;
 }
 
+@media (min-width: 320px) {
+  .p-historia {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .p-historia {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .p-historia {
+    font-size: 16px;
+  }
+}
 /* ------------------------------------------------------------------------ */
 /* ----------------------------CSS DE TOUR.HTML---------------------------- */
 /* ------------------------------------------------------------------------ */
@@ -654,6 +670,44 @@ iframe {
 .ul-contacto {
   display: flex;
   flex-direction: column;
+}
+
+/* CELULARES */
+@media (min-width: 320px) {
+  .logonav {
+    width: 130px;
+  }
+  .maincontacto {
+    height: 100%;
+  }
+  .sectcontacto {
+    align-items: stretch;
+  }
+}
+/* TABLETS */
+@media (min-width: 768px) {
+  .logonav {
+    width: 180px;
+  }
+  .maincontacto {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* DESKTOPS */
+@media (min-width: 1024px) {
+  .logonav {
+    width: 200px;
+  }
+  .maincontacto {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
