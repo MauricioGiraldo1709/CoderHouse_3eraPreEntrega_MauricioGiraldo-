@@ -110,3 +110,31 @@
     margin-bottom: 20px;
   }
    
+  /* CELULARES */
+@media (min-width: 320px){
+  .card-alb{
+    font-size: 14px;
+  }
+  .p-alb{
+    font-size: 14px;
+  }
+}
+/* TABLETS */
+@media (min-width: 768px){
+  .card-alb{
+    font-size: 14px;
+  }
+  .p-alb{
+    font-size: 14px;
+  }
+}
+/* DESKTOPS */
+@media (min-width: 1024px){
+  .card-alb{
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .p-alb{
+    font-size: 16px;
+  }
+}

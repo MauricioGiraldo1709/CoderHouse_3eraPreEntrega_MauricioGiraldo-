@@ -511,6 +511,34 @@ a.my-button:active {
   text-align: center;
 }
 
+/* CELULARES */
+@media (min-width: 320px) {
+  .p-tour {
+    font-size: 14px;
+    padding: 15px;
+  }
+  .tb-tour {
+    font-size: 14px;
+  }
+}
+/* TABLETS */
+@media (min-width: 768px) {
+  .p-tour {
+    font-size: 15px;
+  }
+  .tb-tour {
+    font-size: 15px;
+  }
+}
+/* DESKTOPS */
+@media (min-width: 1024px) {
+  .p-tour {
+    font-size: 16px;
+  }
+  .tb-tour {
+    font-size: 16px;
+  }
+}
 /* ------------------------------------------------------------------------ */
 /* ----------------------------CSS DE ALBUMES.HTML---------------------------- */
 /* ------------------------------------------------------------------------ */
@@ -620,6 +648,34 @@ iframe {
   margin-bottom: 20px;
 }
 
+/* CELULARES */
+@media (min-width: 320px) {
+  .card-alb {
+    font-size: 14px;
+  }
+  .p-alb {
+    font-size: 14px;
+  }
+}
+/* TABLETS */
+@media (min-width: 768px) {
+  .card-alb {
+    font-size: 14px;
+  }
+  .p-alb {
+    font-size: 14px;
+  }
+}
+/* DESKTOPS */
+@media (min-width: 1024px) {
+  .card-alb {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .p-alb {
+    font-size: 16px;
+  }
+}
 /* ------------------------------------------------------------------------ */
 /* ----------------------------CSS DE CONTACTO.HTML---------------------------- */
 /* ------------------------------------------------------------------------ */
